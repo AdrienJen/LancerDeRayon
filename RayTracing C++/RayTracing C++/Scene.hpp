@@ -13,25 +13,23 @@ namespace RTracing
 {
 	class Scene
 	{
-		// Constructor.
+		
 	public:
 		
 		Scene();
 
-		// Rendering.
 		bool Render(Image& outputImage);
 
-		// Private functions.
+		
 	private:
-		// The camera that we will use.
+		// The camera that we will use
 		RTracing::Camera m_camera;
 
-		// The list of objects in the scene.
+		// The list of objects in the scene
 		std::vector<std::shared_ptr<RTracing::NormalObj>> m_objectList;
-		// A unit sphere on the origin, for testing.
-		//RTracing::Sphere m_testSphere;
 
-			// The list of lights in the scene.
+
+			// The list of lights in the scene
 		std::vector<std::shared_ptr<RTracing::NormalLight>> m_lightList;
 
 	};

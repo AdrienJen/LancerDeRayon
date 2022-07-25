@@ -12,7 +12,7 @@ namespace RTracing
 
 	public:
 		Camera();
-		// Functions to set camera parameters.
+		// Camera parameters
 		void SetPosition(const Vector<double>& newPosition);
 		void SetLookAt(const Vector<double>& newLookAt);
 		void SetUp(const Vector<double>& upVector);
@@ -20,7 +20,7 @@ namespace RTracing
 		void SetHorzSize(double newSize);
 		void SetAspect(double newAspectRatio);
 
-		// Functions to return camera parameters.
+		//Return camera parameters.
 		Vector<double> 	GetPosition();
 		Vector<double> 	GetLookAt();
 		Vector<double>	GetUp();
@@ -31,7 +31,7 @@ namespace RTracing
 		double 			GetHorzSize();
 		double			GetAspect();
 		//Create Ray
-		bool GenerateRay(float proScreenX, float proScreenY, RTracing::Ray& cameraRay);
+		bool GenerateRay(float ScreenX, float ScreenY, RTracing::Ray& cameraRay);
 
 		void UpdateCameraGeometry();
 

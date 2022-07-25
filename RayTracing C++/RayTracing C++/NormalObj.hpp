@@ -18,7 +18,7 @@ namespace RTracing
 			Vector<double>& intPoint, Vector<double>& localNormal,
 			Vector<double>& localColor);
 
-		// Function to test whether two floating-point numbers are close to being equal.
+		// Function to test whether two floating-point numbers are close to being equal
 		bool CloseEnough(const double f1, const double f2);
 
 		// Public member variables.

@@ -11,11 +11,11 @@ namespace RTracing
 	class NormalLight
 	{
 	public:
-		// Constructor / destructor.
+	
 		NormalLight();
 		virtual ~NormalLight();
 
-		// Function to compute illumination contribution.
+		// Function to compute illumination contribution
 		virtual bool ComputeIllumination(const Vector<double>& intPoint, const Vector<double>& localNormal,
 			const std::vector<std::shared_ptr<RTracing::NormalObj>>& objectList,
 			const std::shared_ptr<RTracing::NormalObj>& currentObject,

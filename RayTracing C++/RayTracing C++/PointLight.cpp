@@ -19,27 +19,26 @@ bool RTracing::PointLight::ComputeIllumination(const Vector<double>& intPoint, c
 	const std::shared_ptr<RTracing::NormalObj>& currentObject,
 	Vector<double>& color, double& intensity)
 {
-	// Construct a vector pointing from the intersection point to the light.
+	// Construct a vector pointing from the intersection point to the light
 	Vector<double> lightDir = (m_location - intPoint).Normalized();
 
 	// Compute a starting point.
 	Vector<double> startPoint = intPoint;
 
-	// Compute the angle between the local normal and the light ray.
-	// Note that we assume that localNormal is a unit vector.
+	// Compute the angle between the local normal and the light ray
 	double angle = acos(Vector<double>::dot(localNormal, lightDir));
 
-	// If the normal is pointing away from the light, then we have no illumination.
+	// If the normal is pointing away from the light, then we have no illumination
 	if (angle > 1.5708)
 	{
-		// No illumination.
+		
 		color = m_color;
 		intensity = 0.0;
 		return false;
 	}
 	else
 	{
-		// We do have illumination.
+		
 		color = m_color;
 		intensity = m_intensity * (1.0 - (angle / 1.5708));
 		//intensity = 1.0;

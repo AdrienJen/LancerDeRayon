@@ -7,15 +7,15 @@ namespace RTracing
 {
 	class Sphere : public NormalObj
 	{
-		//constructor
+	
 	public:
 		
 		Sphere();
 
-		// Override the destructor.
+		
 		virtual ~Sphere() override;
 
-		// Override the function to test for intersections.
+		// Override the function to test for intersections
 		virtual bool TestIntersection(const RTracing::Ray& castRay,
 			Vector<double>& intPoint,
 			Vector<double>& localNormal,

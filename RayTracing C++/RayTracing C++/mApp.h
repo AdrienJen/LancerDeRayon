@@ -22,11 +22,10 @@ private:
 	//Debug display vector to terminal
 	void PrintVector(const Vector<double>& inputVector);
 
-	// An instance of qbImage to store the image.
 	Image m_image;
 
 	RTracing::Scene m_scene;
-	// SDL2 for running.
+	// SDL2 for running
 	bool isRunning;
 	SDL_Window* SDLWindow;
 	SDL_Renderer* SDLRenderer;

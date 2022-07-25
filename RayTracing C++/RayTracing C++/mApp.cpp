@@ -26,17 +26,17 @@ bool mApp::OnInit()
 		// Init Image instance
 		m_image.Initialize(1280, 720, SDLRenderer);
 
-		// Set the background color to white.
+		// Set the background color 
 		SDL_SetRenderDrawColor(SDLRenderer, 255, 255, 255, 255);
 		SDL_RenderClear(SDLRenderer);
 
-		// Render the scene.
+		// Render the scene
 		m_scene.Render(m_image);
 
-		// Display the image.
+		// Display the image
 		m_image.Display();
 
-		// Show the result.
+		// Show the result
 		SDL_RenderPresent(SDLRenderer);
 
 	}

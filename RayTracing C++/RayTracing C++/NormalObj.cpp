@@ -21,7 +21,7 @@ bool RTracing::NormalObj::TestIntersection(const Ray& castRay, Vector<double>& i
 	return false;
 }
 
-// Function to test whether two floating-point numbers are close to being equal.
+// Function to test whether two floating-point numbers are close to being equal
 bool RTracing::NormalObj::CloseEnough(const double f1, const double f2)
 {
 	return fabs(f1 - f2) < EPSILON;

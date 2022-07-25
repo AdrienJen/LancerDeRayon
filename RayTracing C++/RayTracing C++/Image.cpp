@@ -9,7 +9,7 @@ Image::Image()
 	SDLTexture = NULL;
 }
 
-// The destructor.
+
 Image::~Image()
 {
 	if (SDLTexture != NULL)
@@ -24,14 +24,13 @@ void Image::Initialize(const int xSize, const int ySize, SDL_Renderer* Renderer)
 	gChannel.resize(xSize, std::vector<double>(ySize, 0));
 	bChannel.resize(xSize, std::vector<double>(ySize, 0));
 
-	// Store dimensions.
+	// Store dimensions
 	m_xSize = xSize;
 	m_ySize = ySize;
 
 	// Store pointer to renderer
 	SDLRenderer = Renderer;
 
-	// Initialise texture.
 	InitTexture();
 }
 
@@ -63,7 +62,6 @@ void Image::Display()
 	// Update texture with pixel buffer
 	SDL_UpdateTexture(SDLTexture, NULL, tempPixels, m_xSize * sizeof(Uint32));
 
-	// Destroy pixel buffer
 	delete[] tempPixels;
 
 	// Copy texture to renderer
@@ -103,7 +101,7 @@ void Image::InitTexture()
 	SDLTexture = SDL_CreateTextureFromSurface(SDLRenderer, tempSurface);
 	SDL_FreeSurface(tempSurface);
 }
-// Functions to return the dimensions of the image.
+// Return the dimensions of the image
 int Image::GetXSize()
 {
 	return m_xSize;

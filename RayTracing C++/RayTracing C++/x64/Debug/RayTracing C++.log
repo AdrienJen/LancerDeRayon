@@ -1,69 +1,8 @@
-﻿  Camera.cpp
-D:\C++\RayC++\RayTracing C++\RayTracing C++\Vector.h(85,1): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
-D:\C++\RayC++\RayTracing C++\RayTracing C++\Vector.h(84): message : pendant la compilation de la fonction membre classe modèle 'Vector<double>::Vector(std::vector<T,std::allocator<T>>)'
-          with
-          [
-              T=double
-          ]
-D:\C++\RayC++\RayTracing C++\RayTracing C++\Camera.cpp(8): message : voir la référence à l'instanciation de la fonction modèle 'Vector<double>::Vector(std::vector<T,std::allocator<T>>)' en cours de compilation
-          with
-          [
-              T=double
-          ]
-D:\C++\RayC++\RayTracing C++\RayTracing C++\Ray.hpp(19): message : voir la référence à l'instanciation classe modèle 'Vector<double>' en cours de compilation
-  NormalLight.cpp
-  Plane.cpp
-  PointLight.cpp
-D:\C++\RayC++\RayTracing C++\RayTracing C++\Vector.h(85,1): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
-D:\C++\RayC++\RayTracing C++\RayTracing C++\Vector.h(84): message : pendant la compilation de la fonction membre classe modèle 'Vector<double>::Vector(std::vector<T,std::allocator<T>>)'
-          with
-          [
-              T=double
-          ]
-D:\C++\RayC++\RayTracing C++\RayTracing C++\PointLight.cpp(6): message : voir la référence à l'instanciation de la fonction modèle 'Vector<double>::Vector(std::vector<T,std::allocator<T>>)' en cours de compilation
-          with
-          [
-              T=double
-          ]
-D:\C++\RayC++\RayTracing C++\RayTracing C++\ray.hpp(19): message : voir la référence à l'instanciation classe modèle 'Vector<double>' en cours de compilation
-  Main.cpp
-  mApp.cpp
-  NormalObj.cpp
-  Ray.cpp
-D:\C++\RayC++\RayTracing C++\RayTracing C++\Vector.h(85,1): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
-D:\C++\RayC++\RayTracing C++\RayTracing C++\Vector.h(84): message : pendant la compilation de la fonction membre classe modèle 'Vector<double>::Vector(std::vector<T,std::allocator<T>>)'
-          with
-          [
-              T=double
-          ]
-D:\C++\RayC++\RayTracing C++\RayTracing C++\Ray.cpp(12): message : voir la référence à l'instanciation de la fonction modèle 'Vector<double>::Vector(std::vector<T,std::allocator<T>>)' en cours de compilation
-          with
-          [
-              T=double
-          ]
-D:\C++\RayC++\RayTracing C++\RayTracing C++\Ray.hpp(19): message : voir la référence à l'instanciation classe modèle 'Vector<double>' en cours de compilation
-  Scene.cpp
-D:\C++\RayC++\RayTracing C++\RayTracing C++\Scene.cpp(48,32): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
-D:\C++\RayC++\RayTracing C++\RayTracing C++\Scene.cpp(48,25): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
-D:\C++\RayC++\RayTracing C++\RayTracing C++\Vector.h(85,1): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
-D:\C++\RayC++\RayTracing C++\RayTracing C++\Vector.h(84): message : pendant la compilation de la fonction membre classe modèle 'Vector<double>::Vector(std::vector<double,std::allocator<double>>)'
-D:\C++\RayC++\RayTracing C++\RayTracing C++\Scene.cpp(7): message : voir la référence à l'instanciation de la fonction modèle 'Vector<double>::Vector(std::vector<double,std::allocator<double>>)' en cours de compilation
-D:\C++\RayC++\RayTracing C++\RayTracing C++\Ray.hpp(19): message : voir la référence à l'instanciation classe modèle 'Vector<double>' en cours de compilation
-  Sphere.cpp
-D:\C++\RayC++\RayTracing C++\RayTracing C++\Sphere.cpp(42,26): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
-D:\C++\RayC++\RayTracing C++\RayTracing C++\Vector.h(85,1): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
-D:\C++\RayC++\RayTracing C++\RayTracing C++\Vector.h(84): message : pendant la compilation de la fonction membre classe modèle 'Vector<double>::Vector(std::vector<T,std::allocator<T>>)'
-          with
-          [
-              T=double
-          ]
-D:\C++\RayC++\RayTracing C++\RayTracing C++\Vector.h(174): message : voir la référence à l'instanciation de la fonction modèle 'Vector<double>::Vector(std::vector<T,std::allocator<T>>)' en cours de compilation
-          with
-          [
-              T=double
-          ]
-D:\C++\RayC++\RayTracing C++\RayTracing C++\Vector.h(91): message : pendant la compilation de la fonction membre classe modèle 'Vector<double>::~Vector(void)'
-D:\C++\RayC++\RayTracing C++\RayTracing C++\Sphere.cpp(23): message : voir la référence à l'instanciation de la fonction modèle 'Vector<double>::~Vector(void)' en cours de compilation
-D:\C++\RayC++\RayTracing C++\RayTracing C++\Ray.hpp(19): message : voir la référence à l'instanciation classe modèle 'Vector<double>' en cours de compilation
-  Génération de code en cours...
-  RayTracing C++.vcxproj -> D:\C++\RayC++\RayTracing C++\x64\Debug\RayTracing C++.exe
+﻿  Scene.cpp
+D:\C++\True Ray\LancerDeRayon-main\RayTracing C++\RayTracing C++\Scene.cpp(49,32): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+D:\C++\True Ray\LancerDeRayon-main\RayTracing C++\RayTracing C++\Scene.cpp(49,25): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+D:\C++\True Ray\LancerDeRayon-main\RayTracing C++\RayTracing C++\Vector.h(85,1): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+D:\C++\True Ray\LancerDeRayon-main\RayTracing C++\RayTracing C++\Vector.h(84): message : pendant la compilation de la fonction membre classe modèle 'Vector<double>::Vector(std::vector<double,std::allocator<double>>)'
+D:\C++\True Ray\LancerDeRayon-main\RayTracing C++\RayTracing C++\Scene.cpp(7): message : voir la référence à l'instanciation de la fonction modèle 'Vector<double>::Vector(std::vector<double,std::allocator<double>>)' en cours de compilation
+D:\C++\True Ray\LancerDeRayon-main\RayTracing C++\RayTracing C++\Ray.hpp(19): message : voir la référence à l'instanciation classe modèle 'Vector<double>' en cours de compilation
+  RayTracing C++.vcxproj -> D:\C++\True Ray\LancerDeRayon-main\RayTracing C++\x64\Debug\RayTracing C++.exe
